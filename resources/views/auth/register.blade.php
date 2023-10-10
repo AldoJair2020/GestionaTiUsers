@@ -8,7 +8,7 @@
     <div class="mi-div bg-white w-full sm:w-auto sm:max-w-md sm:p-7 mb-4 sm:mb-0 mt-5 ml-4 sm:ml-0">
         <div class="text-center sm:text-left">
             
-            <h1 class="text-4xl font-bold mt-4 text-center">¡Crea tu cuenta!</h1>
+            <h1 class="text-4xl font-bold mt-4 text-center">¡Crea tu cuenta! xd</h1>
 
             <form class="mt-4" method="POST" action="">
                 @csrf
