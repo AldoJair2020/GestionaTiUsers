@@ -14,6 +14,16 @@ return [
     | any other location as required by the application or its packages.
     |
     */
+    'providers' => [
+        // ...
+        Spatie\Permission\PermissionServiceProvider::class,
+    ],
+    
+    'aliases' => [
+        // ...
+        'Permission' => Spatie\Permission\Models\Permission::class,
+    ],
+    
 
     'name' => env('APP_NAME', 'Laravel'),
 

@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\User;
+use Spatie\Permission\Models\Permission;
+use Spatie\Permission\Models\Role;
 
 class RegisterController extends Controller {
     
@@ -31,6 +33,9 @@ class RegisterController extends Controller {
         ]);
         
         $user = User::create(request(['name', 'lastname', 'email', 'password']));
+        
+        $user->assignRole('candidato');
+        
         auth()->login($user);
         return redirect()->to('/');
     }
