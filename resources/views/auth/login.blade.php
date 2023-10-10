@@ -12,7 +12,7 @@
                     <img src="{{ asset('storage/imagenes/logo.png') }}" alt="Logo de la aplicación">
                 </div>
             </center>
-            <h1 class="text-4xl font-bold mt-4 text-center">Iniciar Sesiónxd</h1>
+            <h1 class="text-4xl font-bold mt-4 text-center">Iniciar Sesión</h1>
 
             <form class="mt-4" method="POST" action="">
                 @csrf
